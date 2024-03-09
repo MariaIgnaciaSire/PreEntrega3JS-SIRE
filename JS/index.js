@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('userData', userDataJSON);
 
         // Redirigir a la página del cotizador después de iniciar sesión
-        window.location.href = '/Página/cotizador.html';
+        window.location.href = './Página/cotizador.html';
     });
 });
 
